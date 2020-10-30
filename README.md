@@ -1,8 +1,11 @@
 ## Project Group
 
 Matthew Corrie
+
 Gabriel Grant
+
 Luke Hawley
+
 Alex Cain
 
 This project has a 25/25/25/25 equity split betwen the project partners.
