@@ -6,7 +6,7 @@ Gabriel Grant
 
 Luke Hawley
 
-Alex Cain
+Alex Caian
 
 This project has a 25/25/25/25 equity split betwen the project partners.
 
