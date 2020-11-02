@@ -131,7 +131,7 @@ want <- kd$label
 kt <- read.csv(file = "kd_test.csv", header = T)
 kt <- Freq(kt)
 kd_test <- kt[, 1:42]
-pred <- knn(train = kd_train, test = kd_test, cl = want, k = 1, use.all = FALSE)        ## THIS RETURNS AN ERROR I STILL HAVEN'T FIGURED OUT. STACK ANSWERS ARE EITHER UNHELPFUL OR 
+pred <- knn(train = kd_train, test = kd_test, cl = want, k = 1, use.all = FALSE)        ## THIS RETURNS AN ERROR I STILL HAVEN'T FIGURED OUT. STACK ANSWERS ARE EITHER UNHELPFUL OR 								## So I tried converting everything to num or only using the num. Also tried using smaller, various prediction columns - eliminating a couple of them, up to only using 2 of them. The same error is returned. The error message is "Too many ties in knn". What I DIDN'T yet try is factoring all, OR using knn3 instead of knn or knn3Default. That has a different layout AND requires all FUN input to be class factor.
                                                                                         ## DON'T ADDRESS THE ISSUE AT ALL. IF ANYONE HAS A LOOK OVER IT LET ME KNOW.
                                        ### See the comments on line 134 for a description of what I've already tried and how it went.  
 ## Alternative procedure for the same effect (tested, same error, but also same dataset up to permutation):
