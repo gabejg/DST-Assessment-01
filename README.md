@@ -14,7 +14,7 @@ This project has a 25/25/25/25 equity split betwen the project partners.
 
 All report content is in the directory:
 
-report/
+Report/
 
 The report takes the following structure:
 
@@ -22,11 +22,22 @@ The report takes the following structure:
 
 Requirements for the Rmd files are given within each script, or can be installed in advance using:
 
-Requirements for the Python code is given in requirements.txt; to install, in a virtual environment run:
+Requirements for the Python code is given within each notebook. The main report requires:
+
+## Data
+
+Initial data gathering and processing is in the directory:
+
+Data/
 
 ## Individual Work
 
 Our working is shown in our own directories,
+
+Alex Caian/
+Gabrial Grant/
+Luke Hawley/
+Matt Corrie/
 
 ## Reflections
 
