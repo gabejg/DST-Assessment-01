@@ -35,8 +35,11 @@ Data/
 Our working is shown in our own directories,
 
 Alex Caian/
+
 Gabrial Grant/
+
 Luke Hawley/
+
 Matt Corrie/
 
 ## Reflections
