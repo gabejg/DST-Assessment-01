@@ -1,0 +1,71 @@
+## LIST OF ALL FUNCTIONS
+
+
+	## This function removes the folds col we no longer need
+undone <- function(x) {
+	n <- ncol(x)
+	if (class(x) == "data.frame") { x <- x[, -n] }
+	}
+
+	
+	
+	## This function is the generlization of undone()
+undone.all <- function(x, ...) {
+	x <- undone(x)
+	invisible(x)	}
+	
+	
+	## This function shows tables of all behaviours
+	labels <- function(x, n = ncol(x)) {
+	t <- as.data.frame(table(x[,n]))
+			 }
+			
+			
+	## Our normalization function
+	nor <-function(x) { (x -min(x))/(max(x)-min(x))   } 	
+	
+	## This function attaches a numerical value to the attacks
+	## Once no longer needed, can be undone with our undone() function
+	Freq <- function(x) {
+	n <- ncol(x)
+	if (class(x) == "data.frame") {
+		labs <- tapply(x[,n] , x[,n])
+		x <- cbind(x,labs)		# labs == 9 corresponds to normal
+		l <- length(unique(x$labs)) 
+		}
+		x		
+		}	
+		
+	
+	## This function creates the covariance for our chosen portions of the data
+	Covs <- function(x) {
+	if(class(x)!="data.frame") {
+		stop("Please input a data frame!") }
+	v1<- cbind(as.numeric(x$labs), as.numeric(x$count), x$diff_srv_rate)
+	v1<- as.data.frame(v1)
+	colnames(v1)<- c("labs", "count", "srv_rate")
+	v1<- nor(v1)		## Want normalized data
+	cov(v1) }
+	
+	
+	## Function with single use in our naive testing, straight forward
+	SL <- function(x, ...) {
+	y<- sum(x)/length(x)
+	y }
+	
+	
+	## This function tests the real accuracy of our naive test
+	count <- function(s= s1, n=behaviour) {
+	c <- 0
+	if(length(s)!= length(n)) {
+		stop("Lengths differ!") }
+	else
+	for(i in 1:length(s)) {
+		if(s[i]==n[i]) { c<- c+1 }
+			}
+	print("The accuracy of this test is:")
+	acc <- c/(length(s))
+	acc }
+	
+	
+	
