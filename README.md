@@ -18,7 +18,7 @@ Report/
 
 ## Requirements:
 
-Requirements for the Rmd files are given within each script, or can be installed in advance using:
+Requirements for the Rmd files are given within each script.
 
 Requirements for the Python code is given within each notebook.
 
