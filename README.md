@@ -16,13 +16,11 @@ All report content is in the directory:
 
 Report/
 
-The report takes the following structure:
-
 ## Requirements:
 
 Requirements for the Rmd files are given within each script, or can be installed in advance using:
 
-Requirements for the Python code is given within each notebook. The main report requires:
+Requirements for the Python code is given within each notebook.
 
 ## Data
 
