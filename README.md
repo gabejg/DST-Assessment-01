@@ -15,6 +15,12 @@ This project has a 25/25/25/25 equity split betwen the project partners.
 All report content is in the directory:
 
 Report/
+- 01-Intro
+- 02-Random Forest
+- 03-K-Nearest Neighbour
+- 04-Gaussian Naive Bayes
+- 05-Logistic Regression
+- 06-Performance Analysis and Conclusion
 
 ## Requirements:
 
@@ -40,6 +46,3 @@ Luke Hawley/
 
 Matt Corrie/
 
-## Reflections
-
-We have placed our reflections in the folder:
