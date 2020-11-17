@@ -34,7 +34,7 @@ Our working is shown in our own directories,
 
 Alex Caian/
 
-Gabrial Grant/
+Gabriel Grant/
 
 Luke Hawley/
 
