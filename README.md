@@ -10,7 +10,7 @@ Alex Caian
 
 This project has a 25/25/25/25 equity split betwen the project partners.
 
-## Reading order and requirements
+## Reading order
 
 All report content is in the directory:
 
@@ -24,7 +24,7 @@ Report/
 
 And should be read in the appropriately numbered order.
 
-## Requirements:
+## Requirements
 
 Requirements for the Rmd files are given within each script.
 
